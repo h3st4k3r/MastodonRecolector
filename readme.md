@@ -4,14 +4,14 @@ This is a crawler for Mastodon. Enter the user, read new posts, and send an emai
 You can monitor as many users as you want. It is recommended to follow the comments throughout the code.
 Initially developed for monitoring la9deanon.
 
-##Description
+## Description
 This repository contains a Python script for crawling Mastodon, a decentralized social media platform. The script allows you to input a user, read their new posts, and send email notifications.
 
-##Prerequisites
+## Prerequisites
 Python 3.x
 Required libraries: html5lib, bs4, urlopen
 
-##Usage
+## Usage
 Install the required dependencies:
 
 `pip install html5lib bs4`
@@ -24,12 +24,12 @@ msg['From']: The email address from which you want to send notifications.
 msg['To']: The email address of the receiver.
 ```
 
-###Run the script:
+### Run the script:
 
 `python mastodon_crawler.py`
 
-##Contributing
+## Contributing
 Contributions are welcome! If you have any ideas or improvements, please open an issue or submit a pull request.
 
-##License
+## License
 This project is licensed under the GNU License.
